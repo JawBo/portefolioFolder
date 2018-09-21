@@ -1,0 +1,210 @@
+body {
+    background: url("../img/particle.png");
+    background-size: 100%;
+}
+
+#navigation {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#nav {
+    border-radius: 15px;
+
+    i {
+        font-size: 50px;
+        margin-right: 20px
+    }
+}
+
+.navbar-brand {
+    margin-left: 20px
+}
+
+#img {
+    height: 300px
+}
+
+[class*='col'] {
+    position: static;
+}
+
+.container {
+    margin-top: 50px;
+
+    i {
+        font-size: 25px;
+        color: #d3b484
+    }
+
+    a {
+        color: #d3b484;
+        font-weight: 900;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+
+.about {
+    .aboutme{
+        margin-top: 15px;
+    }
+    h1 {
+        font-family: 'Bree Serif', serif;
+    }
+
+    img {
+        border: 1px solid #00000047
+    }
+
+    background: #d4d4d4b0;
+    border-radius: 35px;
+    padding: 30px;
+}
+
+.education {
+    h3 {
+        font-family: 'Bree Serif', serif;
+    }
+
+    i {
+        font-size: 50px;
+    }
+
+    img {
+        border: 1px solid #00000047;
+        width: 450px
+    }
+}
+
+#educSection {
+    background: #d4d4d4b0;
+    border-radius: 35px;
+    padding: 15px 20px;
+
+    span {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
+
+.titreEduc {
+    text-align: center
+}
+
+
+
+.skills {
+    background: #d4d4d4b0;
+    text-align: center;
+    border-radius: 35px;
+    padding: 20px;
+    
+
+    .skil {
+        border-right: 2px solid #d3b484;
+        border-left: 2px solid #d3b484
+    }
+
+    .competence {
+        padding: 20px 10px;
+
+        i {
+            color: white;
+            font-size: 30px;
+            padding: 2px;
+            background: #d3b484
+        }
+    }
+}
+
+.titreSkill {
+    i {
+        font-size: 50px;
+    }
+
+    font-family: 'Bree Serif',
+    serif;
+}
+
+.contact {
+    background: #d4d4d4b0;
+    border-radius: 35px;
+    padding: 20px;
+
+    .titreContact {
+        i {
+            font-size: 50px;
+        }
+
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Bree Serif',
+        serif;
+    }
+
+    span {
+        font-weight: 900;
+        le garotle garot
+        a {
+            font-weight: 900;
+        }
+    }
+
+    .contactArea {
+        font-size: 15px;
+        padding: 0 25px;
+        .monEmail{
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        a{
+            font-size: 20px;
+        }
+        input {
+            width: 300px;
+        }
+        p{
+            font-size: 20px;
+        }
+        i{
+            margin: 5px;
+            font-size: 35px;
+        }
+        i:hover{
+            color: white;
+            background: #d3b484;
+        }
+
+        .contactRight {
+            padding: 0 130px;
+        }
+    }
+
+    .imgMap {
+        border-radius: 50px;
+        width: 100%
+    }
+}
+
+#progress {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.titreContact {
+    i {
+        font-size: 50px;
+    }
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bree Serif',
+    serif;
+}

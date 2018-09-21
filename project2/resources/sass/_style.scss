@@ -1,0 +1,65 @@
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.45)), url("/images/notebook.jpg") no-repeat;
+    background-size: 110%;
+}
+
+nav {
+    padding-top: 30px;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    a:hover {
+        color: rgb(185, 180, 180);
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    button {
+        background: transparent;
+        padding: 5px 30px;
+        border: 1px solid white;
+        color: white;
+        float: right;
+    }
+
+    button:hover {
+        border: 1px solid rgb(214, 24, 24);
+        color: rgb(214, 24, 24);
+        background: white;
+        cursor: pointer;
+    }
+}
+
+.aboutArea {
+    text-align: center;
+    padding: 355px;
+
+    h1 {
+        color: white;
+        font-size: 70px;
+    }
+
+    span {
+        font-size: 35px;
+        color: rgb(185, 180, 180);
+    }
+    
+}
+.apropos {
+    background: grey;
+    img {
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 5px solid white
+    }
+}
